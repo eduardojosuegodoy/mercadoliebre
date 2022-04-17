@@ -10,10 +10,39 @@ body {
     background-color: #ebebeb;
 
 }
-
+main{
+    background-color: #ebebeb;
+    height: 100%%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height:100% ;
+    margin: 5%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.botones{
+    width: 100%;
+    border-radius: 4px;
+    border:1px solid #ebebeb;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 30px;
+}
+.boton{
+    background-color: #1259c3;
+    color:white;
+    border-radius: 4px;
+    height: 30px;
+    width: 100%;
+    margin-top: 5%;
+    border:1px solid #1259c3;
+}
 header {
     background-color: #EAC926;
-
 }
 
 .imagen {
@@ -27,29 +56,7 @@ footer {
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
-}
-
-h2 {
-    font-size: 24px;
-    color: #666;
-    text-align: center;
-}
-
-h3 {
-    font-size: 18px;
-}
-
-h4 {
-    font-size: 16px;
-}
-
-.textoverde {
-    color: #39b54a;
-}
-
-.bordeverde {
-    border-radius: 50%;
-    color: #39b54a;
+    
 }
 
 #burger {
@@ -63,31 +70,13 @@ h4 {
     border-radius: 20%;
     background-color: #1259c3;
     color: white;
+    margin-bottom: 10px;
 }
 
 .iconos {
     font-size: 2em;
     margin-bottom: 10px;
     color: #1259c3;
-    text-align: center;
-}
-
-.division {
-    border-top: 1px solid #ebebeb;
-    padding: 15px;
-    text-align: left;
-}
-
-article {
-    margin: 10px;
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    background-color: white;
-}
-
-main {
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
     text-align: center;
 }
 
@@ -99,11 +88,6 @@ main {
     display: none;
 }
 
-
-
-.imagenes {
-    width: 100%;
-}
 .barradebusqueda{
     width: 50%;
     height: 40px;
@@ -140,23 +124,8 @@ main {
 }
 
 @media(min-width:761px) {
-    #holis {
-        display: block;
-    }
-
     #ocultar {
         display: none;
-    }
-
-    section {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    article {
-        width: 40%;
-
     }
     .imagen{
         width: 33%;
@@ -186,12 +155,24 @@ padding-bottom: 10px;}
         padding-right: 5px;
         padding-bottom: 10px;
     }
-    
+    .botones{
+        width: 100%;
+        border-radius: 4px;
+        border:1px solid #ebebeb;
+        margin-top: 2%;
+        margin-bottom: 1%;
+        height: 30px;
+    }
+    .boton{
+        background-color: #1259c3;
+        color:white;
+        border-radius: 4px;
+        height: 30px;
+        width: 100%;
+        margin-top: 3%;
+        border:1px solid #1259c3;
+    }
 }
-
-
-
-
 
 @media(min-width:1024px) {
     #holis {
@@ -201,19 +182,10 @@ padding-bottom: 10px;}
     #ocultar {
         display: none;
     }
-
-    section {
-        width: 100%;
-        flex-wrap: nowrap;
-        display: flex;
-        flex-grow: 1;
+    .lupa{
+        display: none;
     }
-
-    article {
-        width: 50%;
-
-}
-    #holis{
+ #holis{
         display: flex;
     flex-direction: row;
     justify-content: space-between;

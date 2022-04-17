@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="../public/css/register.css" rel="stylesheet">
+    <title>Register</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <form action="/views/register.html" method="post"> 
+            <input class="boton" type="text" name="Nombre y apellido" minlength="1"  maxlength="10" placeholder="Nombre y apellido">
+            <input class="boton" type="text" name="Nombre de usuario" placeholder="Nombre de usuario">
+            <input class="boton" type="email" name="email" placeholder="E-mail">
+            <label class="texto">
+                Fecha de nacimiento
+            </label>
+            <input class="boton" name="dato" type="date">
+            <input class="boton" type="text" name="domicilio" placeholder="Domicilio">
+            <label class="texto">Foto
+            </label>
+            <input class="file" type="file" name="Foto">
+            <input class="boton" type="password" name="contraseña" placeholder="Constraseña">
+            <input class="boton" type="password" name="Confirmar contraseña" placeholder="Confirmar Constraseña">
+            <label class="texto">
+                Perfil de usuario
+            </label>
+            <div><input type="radio" class="interes" name="comprador" value="comprador">Comprador
+            <input type="radio" class="interes" name="vendedor" value="Vendedor">Vendedor</div>
+            <label class="texto">
+                Intereses
+            </label class="texto">
+            <div><input type="checkbox" class="interes" name="comprador" value="Electro">Electro
+            <input type="checkbox" class="interes"  name="comprador" value="Moda">Moda
+            <input type="checkbox" class="interes"  name="comprador" value="Hogar">Hogar
+            <input type="checkbox" class="interes"  name="comprador" value="Jugueteria">Jugueteria
+            <input type="checkbox"class="interes"  name="comprador" value="Vida Sana">Vida Sana</div>
+            <button class="botones" type="submit" href="/views/home.html">Enviar</button>
+            <button class="botones" type="reset">Reset</button>
+        </form>
+    </main>
+    <footer>
+    </footer>
+    
+</body>
+</html>
