@@ -6,7 +6,7 @@ app.use(express.static('/mercadoliebre'))
 
 
 app.get('/', (req,res)=>{ // localhost:3000
-    res.status(200).sendFile(path.join(__dirname,'views/login.html'))
+    res.status(200).sendFile(path.join(__dirname,'views/home.html'))
 });
 
 app.get('/login', (req,res)=>{ // localhost:3000
