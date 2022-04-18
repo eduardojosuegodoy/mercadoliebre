@@ -29,6 +29,7 @@ main form{
 }
 .file{
     margin:10px;
+    width: 100%;
 }
 .radio{
     padding-left: 10px;
@@ -144,6 +145,10 @@ footer {
 
 footer section i:hover{
     color:#666
+    }
+
+    footer section p{
+        padding: 10px;
     }
 
 @media(min-width:761px) {

@@ -9,6 +9,15 @@ app.get('/', (req,res)=>{ // localhost:3000
     res.status(200).sendFile(path.join(__dirname,'views/home.html'))
 });
 
-app.listen(3000,()=>{ // SI EN CONSOLA TIRA  LO DEL CONSOLE.LOG, VA TODO PERFECTO
+app.listen(process.env.PORT || 3000,()=>{ // SI EN CONSOLA TIRA  LO DEL CONSOLE.LOG, VA TODO PERFECTO
     console.log("Servidor corriendo en host 3000")
+});
+
+
+app.get('/login', (req,res)=>{ // localhost:3000
+    res.status(200).sendFile(path.join(__dirname,'views/login.html'))
+});
+
+app.get('/register', (req,res)=>{ // localhost:3000
+    res.status(200).sendFile(path.join(__dirname,'views/register.html'))
 });
