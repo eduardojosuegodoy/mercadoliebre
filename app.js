@@ -2,7 +2,7 @@ const express=require('express'); // para requerir el modulo express dentro de m
 const app=express(); // para Utilizar las funciones de express
 const path=require('path')
 
-app.use(express.static('/public'))
+app.use(express.static('/mercadoliebre'))
 
 
 app.get('/', (req,res)=>{ // localhost:3000
