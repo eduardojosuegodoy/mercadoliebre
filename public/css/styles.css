@@ -130,8 +130,11 @@ article:hover{
     }
 
 .imagenes {
-    width: 100%;
-}
+    width: 80%;
+    }
+    .banner{
+        width: 100%;
+    }
 .barradebusqueda{
     width: 50%;
     height: 40px;
@@ -166,7 +169,9 @@ article:hover{
     padding-top: 10px;
     margin: auto;
 }
-
+p{
+    text-align: center;
+}
 
 
 @media(min-width:761px) {
@@ -185,9 +190,10 @@ article:hover{
         justify-content: center;
     }
     article {
-        width: 40%;
+        width: 45%;
 
     }
+
     .imagen{
         width: 33%;
     }
