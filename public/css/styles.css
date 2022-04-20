@@ -16,7 +16,10 @@ main section article i{
  border-radius: 50%;
  position: static;
  transition: rotate(270deg); 
-
+ position: relative;
+    top: -30px;
+    left: 85%;
+    z-index: 9998;
  
 }
 main section article i:hover{
